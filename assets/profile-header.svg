@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" role="img" aria-label="HADI animated GitHub profile header">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050507"/>
+      <stop offset="0.55" stop-color="#101018"/>
+      <stop offset="1" stop-color="#050507"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7c3aed"/>
+      <stop offset="0.5" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="screen">
+      <rect x="35" y="35" width="1130" height="350" rx="30"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1200" height="420" rx="34" fill="url(#bg)"/>
+  <rect x="2" y="2" width="1196" height="416" rx="32" fill="none" stroke="#272733" stroke-width="2"/>
+
+  <g clip-path="url(#screen)">
+    <circle cx="90" cy="70" r="1.5" fill="#fff" opacity=".7"><animate attributeName="opacity" values=".2;.9;.2" dur="2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="1060" cy="90" r="1.2" fill="#fff" opacity=".5"><animate attributeName="opacity" values=".1;.8;.1" dur="3.7s" repeatCount="indefinite"/></circle>
+    <circle cx="1010" cy="330" r="1.4" fill="#fff" opacity=".6"><animate attributeName="opacity" values=".2;.9;.2" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="180" cy="330" r="1.1" fill="#fff" opacity=".5"><animate attributeName="opacity" values=".1;.7;.1" dur="4s" repeatCount="indefinite"/></circle>
+
+    <path d="M0 300 C250 220 400 390 650 300 S1000 220 1200 300" fill="none" stroke="url(#accent)" stroke-width="1" opacity=".18">
+      <animate attributeName="d" dur="8s" repeatCount="indefinite" values="M0 300 C250 220 400 390 650 300 S1000 220 1200 300;M0 290 C250 380 400 210 650 310 S1000 380 1200 290;M0 300 C250 220 400 390 650 300 S1000 220 1200 300"/>
+    </path>
+
+    <!-- robot eyes -->
+    <g filter="url(#glow)">
+      <rect x="455" y="82" width="105" height="72" rx="24" fill="#10121a" stroke="#22d3ee" stroke-width="3"/>
+      <rect x="640" y="82" width="105" height="72" rx="24" fill="#10121a" stroke="#22d3ee" stroke-width="3"/>
+      <rect x="488" y="103" width="38" height="38" rx="13" fill="#e8fbff">
+        <animate attributeName="height" values="38;38;4;38;38" keyTimes="0;.42;.47;.52;1" dur="4.8s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="103;103;120;103;103" keyTimes="0;.42;.47;.52;1" dur="4.8s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate" values="0 0;12 0;12 0;-8 0;0 0" keyTimes="0;.22;.38;.72;1" dur="6s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="673" y="103" width="38" height="38" rx="13" fill="#e8fbff">
+        <animate attributeName="height" values="38;38;4;38;38" keyTimes="0;.42;.47;.52;1" dur="4.8s" repeatCount="indefinite"/>
+        <animate attributeName="y" values="103;103;120;103;103" keyTimes="0;.42;.47;.52;1" dur="4.8s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate" values="0 0;12 0;12 0;-8 0;0 0" keyTimes="0;.22;.38;.72;1" dur="6s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <text x="600" y="220" text-anchor="middle" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="800" letter-spacing="12">HADI</text>
+    <text x="600" y="255" text-anchor="middle" fill="#8b8b9a" font-family="Arial, Helvetica, sans-serif" font-size="16" letter-spacing="6">ENGINEER · DEVELOPER · BUILDER</text>
+
+    <g font-family="monospace" font-size="15" fill="#8b8b9a">
+      <text x="390" y="302">$</text>
+      <text x="410" y="302" fill="#22d3ee">building</text>
+      <text x="500" y="302">software + hardware</text>
+      <rect x="655" y="288" width="8" height="18" fill="#22d3ee"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+    </g>
+
+    <g transform="translate(600 344)">
+      <rect x="-265" y="-1" width="530" height="2" rx="1" fill="url(#accent)" opacity=".55"/>
+      <circle cx="-265" cy="0" r="3" fill="#22d3ee" filter="url(#glow)">
+        <animate attributeName="cx" values="-265;265;-265" dur="5s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+</svg>
