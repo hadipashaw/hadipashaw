@@ -128,6 +128,6 @@ I prefer experimentation, debugging, and building real systems over stopping at 
 
 <div align="center">
 
-**HADI · @hadipashaw**
+**Hadi Pashaei · @hadipashaw**
 
 </div>
