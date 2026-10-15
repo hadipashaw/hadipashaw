@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/hadipashaw/hadipashaw/main/assets/profile-header.svg" width="100%" alt="HADI animated profile header">
 
-### ### Hadi Pashaei — Engineer · Developer · Builder
+### Hadi Pashaei — Engineer · Developer · Builder
 
 I'm **Hadi Pashaei (هادی پاشایی)**, an Electrical Engineering student working at the 
 intersection of software, embedded systems, and creative engineering.
